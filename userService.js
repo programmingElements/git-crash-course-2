@@ -1,5 +1,15 @@
 function register() {
-    return "demo demo@gmail.com"   
+    const username = "demo1";
+    const email = "demo1.pe@gmail.com";
+    const password = "********";
+    return {
+        data: {
+            username,
+            email,
+            password
+        },
+        message: "Registration Successfully Completed"
+    }   
 }
 
 function login() {
