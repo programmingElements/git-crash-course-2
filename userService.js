@@ -27,6 +27,9 @@ function login() {
 }
 
 function logout() {
-    return ""
+    return {
+        data: "",
+        message: "Logout Successfully Completed"
+    }
 }
 
