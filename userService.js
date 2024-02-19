@@ -33,3 +33,16 @@ function logout() {
     }
 }
 
+function getUserInfo() {
+    const username = "demo1";
+    const email = "demo1.pe@gmail.com";
+    const password = "********";
+    return {
+        data: {
+            username,
+            email,
+            password
+        },
+        message: "Got User Info"
+    }  
+}
