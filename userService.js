@@ -3,7 +3,17 @@ function register() {
 }
 
 function login() {
-    return "demo@gmail.com";
+    const email = "demo@gmail.com";
+    const password = "********";
+    return {
+        data: {
+            email,
+            password,
+
+        },
+        message: "Login Successfully Completed",
+        success: true
+    }
 }
 
 function logout() {
