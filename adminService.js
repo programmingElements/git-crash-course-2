@@ -3,3 +3,9 @@ const getAllContacts = (request, response) => {
     message: "Got All Contacts"
   });
 }
+
+const getMyContact = (request, response) => {
+  return response.status(200).json({ 
+    message: "Got My Contact"
+  });
+}
