@@ -9,3 +9,9 @@ const getMyContact = (request, response) => {
     message: "Got My Contact"
   });
 }
+
+const addContact = (request, response) => {
+  return response.status(200).json({
+    message: "Contact Added Successfully"
+  })
+}
