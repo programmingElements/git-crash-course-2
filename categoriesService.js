@@ -9,3 +9,9 @@ const getCategory = (request, response) => {
      message: "Got Category"
   })
 }
+
+const deleteCategory = (request, response) => {
+  return response.status(200).json({
+    message: "Category Deleted"
+  })
+}
