@@ -9,3 +9,9 @@ const getCategory = (request, response) => {
      message: "Got Category"
   })
 }
+
+const updateCategory = (request, response) => {
+  return response.status(200).json({
+    message: "Updated Category"
+  })
+}
