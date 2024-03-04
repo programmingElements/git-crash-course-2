@@ -10,8 +10,15 @@ const getCategory = (request, response) => {
   })
 }
 
+
 const updateCategory = (request, response) => {
   return response.status(200).json({
     message: "Updated Category"
+  })
+}
+  
+const deleteCategory = (request, response) => {
+  return response.status(200).json({
+    message: "Category Deleted"
   })
 }
