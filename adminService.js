@@ -15,3 +15,9 @@ const addContact = (request, response) => {
     message: "Contact Added Successfully"
   })
 }
+
+const deleteContact = (request, response) => {
+  return response.status(200).json({
+    message: "Contact Deleted Successfully"
+  })
+}
