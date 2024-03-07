@@ -1,3 +1,9 @@
+function getManage(req, res) {
+  return res.status(200).json({
+    message: "Got Manage"
+  })
+}
+
 function addManage(req, res) {
   return res.status(200).json({
     message: "Manage Added"
